@@ -1,0 +1,143 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #333;
+}
+
+.header {
+    text-align: center;
+    background: #0074D9;
+    color: white;
+    padding: 20px 10px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: white;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.banner-left {
+    max-width: 50%;
+}
+
+.banner-left .deal {
+    font-size: 14px;
+    font-weight: 600;
+    color: #FF4136;
+}
+
+.banner-left h2 {
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+.banner-left p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.banner-left .btn-primary {
+    background: #0074D9;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.banner-right {
+    text-align: center;
+}
+
+.banner-right img {
+    max-width: 150px;
+    border-radius: 8px;
+}
+
+.banner-right .discount {
+    font-size: 20px;
+    font-weight: 700;
+    color: #FF4136;
+    margin: 10px 0;
+}
+
+.vouchers {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.voucher-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 30%;
+}
+
+.voucher-card h3 {
+    font-size: 18px;
+    color: #0074D9;
+    margin: 0 0 10px;
+}
+
+.voucher-card p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.voucher-card .btn-secondary {
+    background: #0074D9;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #0074D9;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.bottom-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.bottom-nav a.active {
+    border-bottom: 2px solid white;
+}
